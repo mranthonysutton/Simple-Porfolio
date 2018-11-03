@@ -1,0 +1,99 @@
+body {
+	padding-top: 50px;
+}
+
+.no-resize {
+	resize: none;
+}
+
+.well-contact {
+	margin-top: 40px;
+	padding-top: 0px !important;
+}
+
+footer {
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 12px;
+	height: 80px;
+	line-height: 68px;
+}
+
+nav {
+	color: #FFF;
+	padding-bottom: 0px;
+}
+
+/* Introduction */
+#introduction {
+	height: 100%;
+	padding: 35px;
+	margin-top: 35px;
+}
+
+.intro-list {
+	height: 100%;
+}
+
+.intro-list li {
+	line-height: 40px;
+	font-size: 18px;
+}
+
+/* Icons */
+#icons {
+	background: #222222;
+	color: #CCC;
+	padding-bottom: 20px;
+}
+
+#icons .row {
+	margin: 30px;
+	height: 100%;
+}
+
+/* Blog-section */
+#blog-section {
+	height: 100%;
+	padding: 35px;
+}
+
+#blog-section a.btn {
+	margin-bottom: 15px;
+}
+
+/* Client-List */
+#client-section {
+	background: #222222;
+	color: #FFF;
+	padding: 35px;
+	height: 100%;
+}
+
+.portfolio-list {
+	padding-top: 15px;
+}
+
+.portfolio-caption {
+	padding-top: 15px;
+}
+
+.portfolio-list > .thumbnail {
+	border: none;
+}
+
+.aboutMe-photo {
+	margin: 0px 30px 30px 0px;
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+	.intro-list {
+		display: none;
+	}
+
+	#introduction, #blog-section, #client-section {
+		text-align: center;
+	}
+
+}
